@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_loja_virtual/screens/home_screen.dart';
+import 'package:flutter_loja_virtual/screens/login_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: LoginScreen(),
     );
   }
 }
